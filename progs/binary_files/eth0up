@@ -1,0 +1,5 @@
+#!/bin/sh
+
+ifconfig eth0 up
+udhcpc -i eth0
+ping 8.8.8.8
